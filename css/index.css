@@ -1,0 +1,37 @@
+
+    body{
+        background: url("../images/index.jpeg");
+
+    }
+.con{
+    margin:0 auto;
+    margin-top: 20rem;
+}
+
+.btn-circle.btn-xl {
+    width: 100px;
+    height: 100px;
+    padding: 10px 16px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.33;
+    background-color: coral;
+    border-radius: 50px;
+}
+/*按钮旋转动画*/
+.btn-circle.btn-xl:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: lightskyblue;
+}
+button{
+    margin: 5rem;
+}
