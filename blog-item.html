@@ -1,10 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>土特产店铺</title>
-</head>
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/biog.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/商家店铺.png" type="image/x-icon"/>
+    <audio autoplay="autoplay" loop="loop" preload="auto" controls="controls"
+           src="music/moon.mp3">
+    </audio>
+</head><!--/head-->
 <body>
+<header id="header">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-4">
+                    <div class="top-number"><p>您好，欢迎来到 海南土特产网</p></div>
+                </div>
+                <div class="col-sm-6 col-xs-8">
+                    <div class="social">
+                        <div class="search">
+                            <form role="form">
+                                <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                <i class="fa fa-search"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->
+    </div><!--/.top-bar-->
 
+
+    <nav class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/头像.png" style="width: 115px;height: 60px" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <!--首页、传统文化（风俗）、美食、注册/登录（主要表单验证，具体注册信息自由发挥）、历史发展、土特产店铺（可以自命名）-->
+                    <li><a href="index.html">首页</a></li>
+                    <li ><a href="develop.html">发展变化</a></li>
+                    <li><a href="advanced.html">先进事迹</a></li>
+                    <li><a href="red.html">红色故事</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">合作店铺 <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="blog-item.html">土特产</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sign.html">注册/登录</a></li>
+                </ul>
+            </div>
+        </div><!--/.container-->
+    </nav><!--/nav-->
+    <section id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="sh-brand-wrap">
+                        <div class="sh-brand sh-hot-wrap" style="height: 110px;">
+                            <div class="shop-logo-box">
+                                <a href="blog-item.html"><img src="./images/三亚.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sh-hd-wrap">
+                        <ul class="menu-list">
+                            <li class="menu">
+                                <a class="main-link" href="#" style="font-weight: bold;">首页</a>
+                            </li>
+                            <li  class="menu">
+                                <a class="main-link" href="#">水果</a>
+                            </li>
+                            <li class="menu">
+                                <a class="main-link" href="#" style="">蔬菜</a>
+                            </li>
+                            <li class="menu">
+                                <a class="main-link" href="#">海鲜</a>
+                            </li>
+                            <li class="menu">
+                                <a class="main-link" href="#" >海南岛椰汁</a>
+                            </li>
+                            <li class="menu">
+                                <a class="main-link" href="#" >干货</a>
+                            </li>
+                            <li class="menu">
+                                <a class="main-link" href="#" >蛋品</a>
+                            </li>
+                            <li class="menu">
+                                <a class="main-link" href="#" >椰子油</a>
+                            </li>
+                            <li class="menu">
+                                <a class="main-link" href="#" >更多特产</a>
+                            </li>
+                            <li class="menu" style="margin-left: 290px">
+                                <form action="#" method="get">
+                                    <input type="text" name="s" placeholder="搜索店铺">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <!-- about us index -->
+            <div id="about-slider">
+                <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators visible-xs">
+                        <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-slider" data-slide-to="1"></li>
+                        <li data-target="#carousel-slider" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/哈密瓜.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/蜂蜜.jpg" style="width:1200px;height:450px" class="img-responsive"  alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/燕窝.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/莲雾.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/香蕉.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/鸡蛋.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div> <!--/#carousel-index-->
+            </div><!--/#about-index-->
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="j-module">
+                        <div class="j-module-title">
+                            <h2>热门商品</h2>
+                        </div>
+                        <div class="jGood" style="height: 423px;width: 352px">
+                            <div class="preview" style="height: 423px;width: 352px">
+                                <img id="one"  src="./images/芒果.png" alt="芒果" style="width: 352px; height: 423px;transition: all 1s">
+                                <img id="two" src="./images/芒果2.png" alt="芒果2" style="width: 352px; height: 423px;opacity:1;display: none;transition: opacity 4s;">
+                                <img id="three" src="./images/百香果.jpg" alt="百香果" style="width: 352px; height: 423px;opacity: 1;display: none;transition: opacity 4s">
+                                <img id="four" src="./images/荔枝.jpg" alt="荔枝" style="width: 352px; height: 423px;position:relative;opacity: 1;display: none;transition: opacity 4s">
+                                <img id="five" src="./images/哈密瓜1.jpg" alt="哈密瓜1" style="width: 352px; height: 423px;opacity: 1;display: none">
+                                <img id="six" src="./images/椰子.jpg" alt="椰子" style="width: 352px; height: 423px;opacity: 1;display: none">
+                            </div>
+
+                        </div>
+
+                        <div class="view" style="width: 1140px;height: 423px">
+                            <a class="show_1" href="#"><img class="img_1" src="./images/芒果.png" alt="" ></a>
+                            <a class="show_2" href="#"><img class="img_1" src="./images/芒果2.png" alt="" ></a>
+                            <a class="show_3" href="#"><img class="img_1" src="./images/百香果.jpg" alt="" ></a>
+                            <a class="show_4" href="#"><img class="img_1" src="./images/荔枝.jpg" alt="" ></a>
+                            <a class="show_5" href="#"><img class="img_1" src="./images/哈密瓜1.jpg" alt="" ></a>
+                            <a class="show_6" href="#"><img class="img_1" src="./images/椰子.jpg" alt="" ></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</header>
+<div class="right-view">
+    <div id="right_info">
+        <ul>
+            <li class="glist">
+                <a href="javascript:"></a>
+                <span>购物车</span>
+            </li>
+            <li class="glist">
+                <a href=""></a>
+                <span>我的关注</span>
+            </li>
+            <li class="glist">
+                <a href=""></a>
+                <span>我的足迹</span>
+            </li>
+            <li class="glist">
+                <a href=""></a>
+                <span>我的消息</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<footer id="footer" class="midnight-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                &copy; 2022 海南宣传网
+            </div>
+            <div class="col-sm-6">
+                <ul class="pull-right">
+                    2022-2023-1学期 Web前端开发技术课程设计 何光恒 202009601074 软件Q203
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer><!--/#footer-->
+
+
+<script src="js_1/jquery.js"></script>
+<script type="text/javascript">
+    // $('.carousel').carousel();
+</script>
+<script src="js_1/bootstrap/bootstrap.min.js"></script>
+<script src="js_1/jquery.prettyPhoto.js"></script>
+<script src="js_1/jquery.isotope.min.js"></script>
+<script src="js_1/main.js"></script>
+<script src="js_1/wow.min.js"></script>
+<script src="js_1/jquary/jquery-3.5.1.js"></script>
+<script src="js_1/biog.js"></script>
 </body>
+
 </html>

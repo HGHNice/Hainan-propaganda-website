@@ -6,220 +6,247 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>红色故事</title>
+    <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/商家店铺.png" type="image/x-icon"/>
+    <audio autoplay="autoplay" loop="loop" preload="auto" controls="controls"
+           src="music/moon.mp3">
+    </audio>
 </head><!--/head-->
+
 <body>
 
-    <header id="header">
-        <div class="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>咨询热线：10086</p></div>
-                    </div>
-                    <div class="col-sm-6 col-xs-8">
-                       <div class="social">
-                            <div class="search">
-                                <form role="form">
-                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                                    <i class="fa fa-search"></i>
-                                </form>
-                           </div>
-                       </div>
-                    </div>
-                </div>
-            </div><!--/.container-->
-        </div><!--/.top-bar-->
-
-        <nav class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-                </div>
-
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <!--                        首页、传统文化（风俗）、美食、注册/登录（主要表单验证，具体注册信息自由发挥）、历史发展、土特产店铺（可以自命名）-->
-                        <li><a href="index.html">首页</a></li>
-                        <li><a href="develop.html">发展变化</a></li>
-                        <li><a href="advanced.html">先进事迹</a></li>
-                        <li class="active"><a href="red.html">红色故事</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">合作店铺 <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">土特产</a></li>
-                                <li><a href="pricing.html">旅游</a></li>
-                                <li><a href="shortcodes.html">了解更多</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="reg.html">注册/登录</a></li>
-                    </ul>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
-        
-    </header><!--/header-->
-    <section id="portfolio">
+<header id="header">
+    <div class="top-bar">
         <div class="container">
-            <div class="center">
-               <h2>Portfolio</h2>
-               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-        
-
-            <ul class="portfolio-filter text-center">
-                <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".bootstrap">Creative</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".html">Photography</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".wordpress">Web Development</a></li>
-            </ul><!--/#portfolio-filter-->
-
             <div class="row">
-                <div class="portfolio-items">
-                    <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/recent/item1.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
+                <div class="col-sm-6 col-xs-4">
+                    <div class="top-number"><p><i class="fa fa-phone-square"></i>咨询热线：10086</p></div>
+                </div>
+                <div class="col-sm-6 col-xs-8">
+                    <div class="social">
+                        <div class="search">
+                            <form role="form">
+                                <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                <i class="fa fa-search"></i>
+                            </form>
                         </div>
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/recent/item2.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/recent/item3.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>        
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/recent/item4.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>           
-                    </div><!--/.portfolio-item-->
-          
-                    <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/recent/item5.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>      
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/recent/item6.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>         
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/recent/item7.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/recent/item8.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
+                    </div>
                 </div>
             </div>
-        </div>
-    </section><!--/#portfolio-item-->
-    
+        </div><!--/.container-->
+    </div><!--/.top-bar-->
 
-
-    <footer id="footer" class="midnight-blue">
+    <nav class="navbar navbar-inverse" role="banner">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 All Rights Reserved.
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/头像.png" style="width: 115px;height: 60px" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <!--                        首页、传统文化（风俗）、美食、注册/登录（主要表单验证，具体注册信息自由发挥）、历史发展、土特产店铺（可以自命名）-->
+                    <li><a href="index.html">首页</a></li>
+                    <li ><a href="develop.html">发展变化</a></li>
+                    <li><a href="advanced.html">先进事迹</a></li>
+                    <li class="active"><a href="red.html">红色故事</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">合作店铺 <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog-item.html">土特产</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sign.html">注册/登录</a></li>
+                </ul>
+            </div>
+        </div><!--/.container-->
+    </nav><!--/nav-->
+</header><!--/header-->
+
+<section id="about-us">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>红色火种 海岛燎原</h2>
+            <p class="lead">海南的党组织从无到有，从小到大，经历了一个十分曲折的过程。
+                <br> 在国共合作的背景下，1926年1月，国民革命军南征收复琼崖，一批共产党和共青团员随即过海，在全岛各地开展建党活动。党组织从第一个支部开始，逐渐发展壮大，开启了琼崖革命的壮阔历程。土地革命时期，琼崖红色区域不断扩大，成为全国有影响力的苏区之一。</p>
+        </div>
+
+        <!-- about us index -->
+        <div id="about-slider">
+            <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators visible-xs">
+                    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-slider" data-slide-to="1"></li>
+                    <li data-target="#carousel-slider" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/训练.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/红色娘子军.jpg" style="width:1200px;height:450px" class="img-responsive"  alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/会议.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/雕塑.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/白沙.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/六连.jpg" style="width:1200px;height:450px" class="img-responsive" alt="">
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
+
+                <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+
+                <a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div> <!--/#carousel-index-->
+        </div><!--/#about-index-->
+
+
+
+
+
+        <!-- our-team -->
+        <div class="team">
+            <div class="center wow fadeInDown">
+                <h2>追寻海南红色印记，重温峥嵘岁月</h2>
+                <p class="lead">党的十八大以来，海南实施脱贫攻坚战略，贫困发生率由12.3%降至1.3%。<br> 今年，海南将实现剩余3个国定贫困县、3个贫困村全部摘帽，4.5万贫困人口全部脱贫。</p>
+            </div>
+
+            <div class="row clearfix">
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img class="media-object" src="images/六连.jpg" style="width: 145px;height: 137px" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <h4>万宁</h4>
+                                <h5>六连岭革命烈士陵园</h5>
+                            </div>
+                        </div><!--/.media -->
+                        <p>六连岭为五指山余脉，因六峰相连，逶迤腾浪，故古时有“连峰耸翠”的美名，是万州八景之一，也是琼崖纵队开辟的根据地。从1927年至1950年，六连岭革命根据地军民坚持了23年艰苦卓绝的斗争，为夺取琼崖新民主主义革命的胜利作出了重大贡献。</p>
+                    </div>
+                </div><!--/.col-lg-4 -->
+
+
+                <div class="col-md-4 col-sm-6 col-md-offset-2">
+                    <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img class="media-object" src="images/白沙.jpg" style="width: 145px;height: 137px" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <h4>琼中黎族苗族自治县红毛镇番响村东侧的</h4>
+                                <h5>白沙起义纪念园</h5>
+
+                            </div>
+                        </div><!--/.media -->
+                        <p>白沙起义纪念园为纪念1943年8月黎族首领王国兴、王玉锦领导的白沙黎、苗族人民武装起义而建，是缅怀先烈的红色旅游基地。白沙起义纪念园，包括纪念碑、纪念馆、纪念雕塑墙、王国兴雕像及附属设施等部分。</p>
+                    </div>
+                </div><!--/.col-lg-4 -->
+            </div> <!--/.row -->
+            <div class="row team-bar">
+                <div class="first-one-arrow hidden-xs">
+                    <hr>
                 </div>
+                <div class="first-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="second-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+                <div class="third-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="fourth-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+            </div> <!--skill_border-->
+
+            <div class="row clearfix">
+                <div class="col-md-4 col-sm-6 col-md-offset-2">
+                    <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img class="media-object" src="images/会议.jpg" style="width: 145px;height: 137px" alt=""></a>
+                            </div>
+
+                            <div class="media-body">
+                                <h4>海南</h4>
+                                <h5>中共琼崖一大旧址</h5>
+
+                            </div>
+                        </div><!--/.media -->
+                        <p>中国共产党琼崖第一次代表大会旧址，位于海口市解放西路北侧的竹林村（里）邱宅大院131号。邱宅大院于1920年由邱秉衡之父邱爵一亲手建造的。1924年，邱宅主人邱秉衡将宅院提供给琼崖中共党组织作为革命活动联络点。1926年6月，中共琼崖第一次代表大会在此召开。自2001年正式开放以来，旧址已成为爱国主义教育基地。</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-md-offset-2">
+                    <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img class="media-object" src="images/雕塑.jpg" style="width: 145px;height: 137px" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <h4>琼海红色娘子军纪念园</h4>
+                                <h5>和平广场雕塑</h5>
+
+                            </div>
+                        </div><!--/.media -->
+                        <p>纪念馆前庭上矗立一樽巨型的红色娘子军战士雕像，雕像庄重威武，英姿飒爽，将红军女战士脚穿草鞋、肩背竹笠，风尘仆仆的一代巾帼英雄的气概充分展现。毛泽东、周恩来曾高度评价红色娘子军，赞扬红色娘子军为“世界革命的典范”。</p>
+                    </div>
+                </div>
+            </div>	<!--/.row-->
+        </div><!--section-->
+    </div><!--/.container-->
+</section><!--/about-us-->
+
+
+<footer id="footer" class="midnight-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                &copy; 2022 海南宣传网
+            </div>
+            <div class="col-sm-6">
+                <ul class="pull-right">
+                    2022-2023-1学期 Web前端开发技术课程设计 何光恒 202009601074 软件Q203
+                </ul>
             </div>
         </div>
-    </footer><!--/#footer-->
+    </div>
+</footer><!--/#footer-->
 
-    <script src="js_1/jquery.js"></script>
-    <script src="js_1/bootstrap/bootstrap.min.js"></script>
-    <script src="js_1/jquery.prettyPhoto.js"></script>
-    <script src="js_1/jquery.isotope.min.js"></script>
-    <script src="js_1/main.js"></script>
-    <script src="js_1/wow.min.js"></script>
+
+<script src="js_1/jquery.js"></script>
+<script type="text/javascript">
+    $('.carousel').carousel()
+</script>
+<script src="js_1/bootstrap/bootstrap.min.js"></script>
+<script src="js_1/jquery.prettyPhoto.js"></script>
+<script src="js_1/jquery.isotope.min.js"></script>
+<script src="js_1/main.js"></script>
+<script src="js_1/wow.min.js"></script>
 </body>
 </html>

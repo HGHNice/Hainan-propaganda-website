@@ -410,7 +410,7 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 100%;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -661,16 +661,6 @@ input.search-form:hover {
 
 .recent-work-wrap:hover .overlay {
   opacity: 1;
-}
-
-#services {
-  background: #000 url(../images/services/bg_services.png);
-  background-size: cover;
-}
-
-#services .lead,
-#services h2{
-  color: #fff;
 }
 
 .services-wrap {
@@ -960,20 +950,7 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
-#partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
-  background-size: cover;
-}
 
-#partner {
-  color: #fff;
-  text-align: center;
-}
-
-#partner h2, 
-#partner h3 {
-  color: #fff;
-}
 
 .partners ul {
   list-style: none;
@@ -1494,12 +1471,7 @@ ul.social_icons li  a i{
   padding: 60px;
 }
 
-.clients-comments {
-    background-image: url("../images/image_bg.png");
-    background-position: center 118px;
-    background-repeat: no-repeat;
-    margin-bottom: 100px;
-}
+
 
 .clients-comments img {
   background:#DDDDDD;
@@ -1900,13 +1872,7 @@ ul.social_icons li  a i{
 ********* Contact Us CSS ******
 **************************/
 
-.gmap-area {
-  background-image: url("../images/map.jpg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 70px 0;
-}
+
 
 .gmap-area .gmap iframe {
   border-radius: 50%;
@@ -2213,15 +2179,7 @@ ul.pagination > li:hover > a {
   color: #fff;
 }
 
-.search_box {
-  background-image: url("../images/search_icon.png");
-  background-position: 314px 15px;
-  background-repeat: no-repeat;
-  border-color: #DEDEDE;
-  height: 48px;
-  outline: medium none;
-  box-shadow: none;
-}
+
 
 .form-control:focus {
   box-shadow:none;
@@ -2348,13 +2306,7 @@ ul.sidebar-gallery {
   display:inherit;
 }
 
-#comments_title{
-   color:#4e4e4e;
-   font-weight:700px;
-   font-size:20px;
-   margin-top:60px;
-   margin-bottom:40px;
-}
+
 .comment_section {
   margin-top: 30px;
   position: relative;
@@ -2536,7 +2488,9 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
-
+audio{
+  display: none;
+}
 
 
 

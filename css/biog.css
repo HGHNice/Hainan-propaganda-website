@@ -1,0 +1,212 @@
+.sh-brand-wrap{
+    background-image: url("../images/dh.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.shop-logo-box{
+ margin-top: 20px;
+}
+.sh-hot-wrap img{
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+}
+.shop-name{
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+}
+.shop-name-box{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    height: 60px;
+    left: 150px;
+    vertical-align: top;
+}
+.sh-hd-wrap{
+    position: relative;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 14px;
+    color: #333;
+    width: 1210px;
+}
+.menu-list{
+    width: 100%;
+    height: 40px;
+
+    list-style: none;
+}
+.menu{
+    float: left;
+    line-height: 24px;
+    height: 24px;
+    padding: 8px 0;
+    border-radius: 12px;
+}
+
+.main-link{
+    position: relative;
+    z-index: 4;
+    display: block;
+    padding: 0 15px;
+    color: #333;
+    border-radius: 12px;
+}
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+dt{
+    display: block;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.main-link:hover{
+    background-color: black;
+    border-radius: 29px;
+    color: white;
+    transition: all 0.5s;
+}
+.j-module{
+    cursor: pointer;
+    height: 487px;
+}
+li{
+    list-style: none;
+}
+.right-view{
+    top: 135px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
+#right_info{
+    position: fixed;
+    right: 0;
+    top: 350px;
+}
+#left_info{
+    position: fixed;
+    left: 0;
+    top: 350px;
+}
+.glist{
+    position: relative;
+}
+.glist:hover{
+    /*left: -90px;*/
+}
+.glist:nth-child(1) a{
+    background: #414141 url("../images/toolbar_05.png") center no-repeat ;
+}
+.glist:nth-child(2) a{
+    background: #414141 url("../images/toolbar_10.png") center no-repeat ;
+}
+.glist:nth-child(3) a{
+    background: #414141 url("../images/toolbar_15.png") center no-repeat ;
+}
+.glist:nth-child(4) a{
+    background: #414141 url("../images/toolbar_19.png") center no-repeat ;
+}
+.glist span{
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    background: #414141;
+    font-size: 12px;
+    padding: 0 20px;
+    border-radius: 5px 0 0 5px;
+    opacity: 0;
+}
+@keyframes speed {
+    0%{
+        left: 0;
+        opacity: 0;
+    }
+    33%{
+        left: -30px;
+        opacity: 0.33;
+    }
+    66%{
+        left: -60px;
+        opacity: 0.66;
+    }
+    100%{
+        left: -90px;
+        opacity: 1;
+    }
+}
+.glist:hover span{
+    left: -90px;
+    opacity: 1;
+    background: #16afd2;
+    animation: speed 0.5s linear both;
+}
+.glist a{
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-color: #414141;
+    margin-bottom: 4px;
+    border-radius: 5px 0 0 5px;
+}
+.jGood{
+    float: left;
+}
+.img_1{
+ width: 250px;
+ height: 212px;
+}
+.show_1:hover{
+    opacity: 0.5;
+}
+.show_2:hover{
+    opacity: 0.5;
+}
+.show_3:hover{
+    opacity: 0.5;
+}
+.show_4:hover{
+    opacity: 0.5;
+}
+.show_5:hover{
+    opacity: 0.5;
+}
+.show_6:hover{
+    opacity: 0.5;
+}
+.show_s{
+    opacity: 1;
+    display: block;
+}
+.off{
+    display: none;
+}
+@keyframes s_view {
+    0%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 0.33;
+    }
+    66%{
+
+        opacity: 0.66;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.roa{
+    animation: s_view 1s linear both;
+}
